@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap');
+
+:root {
+    --font: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.info-desconto {
+    font-family: var(--font);
+    font-size: 10pt;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 3rem;
+}
+
+.div-titulo-pagina {
+    font-family: var(--font);
+    font-size: 16pt;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.container-imagem-cabecalho {
+    position: relative;
+    background-image: url('imagens/wallpaper.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 180px;
+    filter: brightness(65%);
+    box-shadow: inset 0px -2px 12px rgba(0, 0, 0, 0.418);
+}
+
+#container-txt-imagem {
+    font-family: var(--font);
+    position: absolute;
+    top: 16rem;
+    padding-left: 6.5%;
+    color: white;   
+}
+
+#container-txt-imagem > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#container-txt-imagem > p {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin-top: 1rem;
+    line-height: 2em;
+}
+
+.corpo {
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.destaque {
+    font-family: var(--font);
+    line-height: 2.5rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.destaque > h3 {
+    font-size: 20pt;
+}
+
+.destaque > h4 {
+    font-size: 12pt;
+    font-weight: normal;
+    max-width: 100%;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 0 auto;
+    gap: 2rem 0.5rem;
+}
+
+.itens {
+    /* background-color: lightgray; */
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.233);
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.preco {
+    background-color: rgba(143, 143, 143, 0.342);
+}
+
+.itens > div {
+    display: none;    
+    flex: 1;
+    align-self: flex-end;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.itens:hover > div {
+    display: block;
+}
+
+.itens > img {
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.itens:hover {
+    transform: scale(1.1, 1.1);
+    border-radius: 5px;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
