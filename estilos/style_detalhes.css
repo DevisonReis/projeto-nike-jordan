@@ -36,6 +36,10 @@
     height: 3rem;
 }
 
+.div-titulo-pagina > a {
+    color: black;
+}
+
 .container-imagem-cabecalho {
     position: relative;
     background-image: url('/imagens/wallpaper.jpeg');
@@ -71,6 +75,15 @@
 
 /* Configuração do corpo */
 
+main {
+    width: 80rem;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(243, 243, 243, 0.562);
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.233);
+}
+
 .detalhe-produto {
     width: 80rem;
     min-height: 100vh;
@@ -100,6 +113,14 @@
     margin-top: 0;
 }
 
+.descricao-produto {
+    max-width: 50rem;
+    min-width: 25rem;
+    margin: 0 17.5rem;
+    line-height: 2rem;
+
+}
+
 .nome-produto {
     font-family: var(--font);
     font-weight: bolder;
@@ -116,6 +137,8 @@
 #seletor-de-cor {
     width: 12rem;
     height: 2rem;
+    border-style: none;
+    border-radius: 10px;
 }
 
 #btn-comprar {
@@ -130,6 +153,10 @@
     border-style: none;
 }
 
+#btn-comprar:hover {
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
 /* rodapé */
 
 .rodape {
@@ -137,4 +164,5 @@
     color: white;
     text-align: center;
     padding: 10px;
+    margin-top: 80px;
 }
