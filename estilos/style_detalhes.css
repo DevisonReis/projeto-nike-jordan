@@ -139,7 +139,7 @@ main > p {
 }
 
 .descricao-produto {
-    width: 50rem;
+    width: auto;
     min-width: 25rem;
     margin: auto;
     line-height: 2rem;
@@ -189,6 +189,22 @@ main > p {
     background-color: rgba(0, 0, 0, 0.801);
 }
 
+#btn-carrinho {
+    font-family: var(--font);
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#btn-carrinho:hover {
+    background-color: rgba(51, 49, 49, 0.884);
+}
+
 /* rodapé */
 
 .rodape {
@@ -209,5 +225,7 @@ main > p {
 
     .produto {
         max-width: 100%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
     }
 }
