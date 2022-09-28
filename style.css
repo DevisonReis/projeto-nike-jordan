@@ -12,6 +12,8 @@
     text-decoration: none;
 }
 
+/* Configurações do cabeçalho */
+
 .info-desconto {
     font-family: var(--font);
     font-size: 10pt;
@@ -67,9 +69,11 @@
     line-height: 2em;
 }
 
+/* Configurações do main */
+
 .corpo {
-    height: auto;
-    margin-bottom: 5rem;
+    min-height: 35rem;
+    margin-bottom: 12rem;
 }
 
 .destaque {
@@ -100,7 +104,6 @@
 }
 
 .itens {
-    /* background-color: lightgray; */
     border: 1px solid lightgray;
     border-radius: 8px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.233);
