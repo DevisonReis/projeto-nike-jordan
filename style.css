@@ -103,6 +103,10 @@
     gap: 2rem;
 }
 
+.produtos > a {
+    color: black;
+}
+
 .itens {
     border: 1px solid lightgray;
     border-radius: 8px;
