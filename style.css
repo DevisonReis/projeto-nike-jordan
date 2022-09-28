@@ -24,6 +24,7 @@
     background-color: black;
     color: white;
     height: 3rem;
+    width: 100%;
 }
 
 .div-titulo-pagina {
@@ -43,7 +44,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 180px;
+    padding-top: 180px;
+    padding-bottom: 180px;
     filter: brightness(65%);
     box-shadow: inset 0px -2px 12px rgba(0, 0, 0, 0.418);
 }
@@ -51,9 +53,10 @@
 #container-txt-imagem {
     font-family: var(--font);
     position: absolute;
-    top: 16rem;
+    top: 39%;
     padding-left: 6.5%;
-    color: white;   
+    color: white;
+    width: auto;
 }
 
 #container-txt-imagem > h2 {
