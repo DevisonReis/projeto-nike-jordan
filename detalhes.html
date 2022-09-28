@@ -24,15 +24,14 @@
         </div>
     </header>
     <main class="conteudo">
+        <p class="nome-produto">Tênis NikeAir Jordan</p>
         <aside class="detalhe-produto">
             <div class="produto">
                 <img src="/imagens/1.png" alt="">
             </div>
             <div class="descricao">
-                <p class="nome-produto">Tênis NikeAir Jordan</p>
-                <p class="valor">R$300,00</p>
-                <p>ou 12x de R$25,00</p>
                 <select name="seletor" id="seletor-de-cor">
+                    <option value="cor" label="Selecione a cor">Selecione a cor</option>
                     <option value="verde">Verde</option>
                     <option value="roxo">Roxo</option>
                     <option value="branco">Branco</option>
@@ -42,6 +41,18 @@
                     <option value="prata">Prata</option>
                     <option value="preto-branco">Preto e branco</option>
                 </select>
+                <select name="tamanho" id="seletor-de-tamanho">
+                    <option value="Tamanho" label="Escolha o tamanho">Selecione o tamanho</option>
+                    <option value="tam-34">34</option>
+                    <option value="tam-36">36</option>
+                    <option value="tam-38">38</option>
+                    <option value="tam-40">40</option>
+                    <option value="tam-42">42</option>
+                    <option value="tam-46">46</option>
+                </select>
+                <p class="valor">R$300,00</p>
+                <p class="parcelamento">ou 12x de R$25,00</p>
+                
                 <input type="submit" value="comprar" id="btn-comprar">
             </div>
         </aside>
