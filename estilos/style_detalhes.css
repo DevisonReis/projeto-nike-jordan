@@ -120,6 +120,7 @@ main > p {
 
 .fotos > img:hover {
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.233);
+    border: 1px solid black;
 }
 
 .formulario {
