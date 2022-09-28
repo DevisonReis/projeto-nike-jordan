@@ -93,9 +93,10 @@
 .produtos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     max-width: 90%;
     margin: 0 auto;
-    gap: 2rem 0.5rem;
+    gap: 2rem;
 }
 
 .itens {
