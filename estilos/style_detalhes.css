@@ -76,7 +76,7 @@
 /* Configuração do corpo */
 
 main {
-    width: 80rem;
+    max-width: 90%;
     margin: 0 auto;
     padding: 20px;
     background-color: rgba(243, 243, 243, 0.562);
@@ -85,7 +85,7 @@ main {
 }
 
 .detalhe-produto {
-    width: 80rem;
+    width: 80%;
     min-height: 100vh;
     margin: 0 auto;
     display: flex;
@@ -97,9 +97,14 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 25rem;
+    max-width: 50%;
+    min-width: 25%;
     min-height: 34rem;
     border: 1px solid lightgray;
+}
+
+.produto > img {
+    min-width: 80%;
 }
 
 .descricao {
@@ -111,6 +116,11 @@ main {
     width: 25rem;
     min-height: 34rem;
     margin-top: 0;
+}
+
+.nome-produto {
+    font-size: 5vw;
+    max-width: auto;
 }
 
 .descricao-produto {
@@ -165,4 +175,17 @@ main {
     text-align: center;
     padding: 10px;
     margin-top: 80px;
+}
+
+/* Media Query */
+
+@media (max-width: 1000px) {
+    .detalhe-produto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .produto {
+        max-width: 100%;
+    }
 }
