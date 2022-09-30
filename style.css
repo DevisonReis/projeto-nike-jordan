@@ -152,7 +152,7 @@
 }
 
 @media (max-width: 500px) {
-    #container-txt-imagem {
+    #container-txt-imagem > p {
         width: 100%;
         font-size: 3vw;
     }   
